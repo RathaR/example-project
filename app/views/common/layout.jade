@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width')
+        title= title
+        block css
+            link(rel='stylesheet', href='/css/style.css')
+            link(rel='icon' href='favicon.ico?v2=v')
+        block js
+            script(src='./../bower_components/jquery/dist/jquery.js')
+            script(src='./../bower_components/lodash/dist/lodash.js')
+    body
+        block content

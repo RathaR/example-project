@@ -1,0 +1,7 @@
+extends ../common/layout
+
+block content
+    .page.one-bike
+        h3 #{bike.title}
+        img.bike-large-photo(src='../#{bike.img.large}')
+        a(href="../../bikes") Back to list

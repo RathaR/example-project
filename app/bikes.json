@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "honda_vfr_800",
+    "title": "Honda VFR 800",
+    "img": {
+      "small": "img/honda_vfr_800.jpg",
+      "large": "img/honda_vfr_800.jpg"
+    }
+  },
+  {
+    "_id": "honda_cb_400",
+    "title": "Honda CB 400 SF",
+    "img": {
+      "small": "img/honda_cb_400.jpg",
+      "large": "img/honda_cb_400.jpg"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+.filter
+    .filter-criteria
+        span Manufacturer
+        label Honda
+            input(type="checkbox" name="manufacturer" value="honda" checked=(filter.honda ? "checked" : undefined))
+        label Suzuki
+            input(type="checkbox" name="manufacturer" value="suzuki" checked=(filter.suzuki ? "checked" : undefined))
+        label Kawasaki
+            input(type="checkbox" name="manufacturer" value="kawasaki" checked=(filter.kawasaki ? "checked" : undefined))
+        label Yamaha
+            input(type="checkbox" name="manufacturer" value="yamaha" checked=(filter.yamaha ? "checked" : undefined))
+        a.filter-btn.clear(href="/") Clear
+        a.filter-btn.apply(href="/") Apply

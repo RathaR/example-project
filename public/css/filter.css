@@ -1,0 +1,43 @@
+.filter {
+    box-sizing: border-box;
+    padding: 5px 30px 30px;
+    width: 190px;
+    background-color: #FFF;
+    border: 1px solid #DBE3E7;
+    border-radius: 3px;
+    box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
+    position: fixed;
+    text-align: left;
+    color: #2B2E31;
+}
+
+.filter .filter-criteria {
+    display: block;
+    margin: 10px 0 10px;
+}
+
+.filter label {
+    display: block;
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+.filter label input {
+    margin-right: 10px;
+}
+
+.filter a {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.filter span {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}

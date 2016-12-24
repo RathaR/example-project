@@ -1,0 +1,16 @@
+extends ../common/layout
+mixin bike-preview(bike)
+    li
+        img.bike-photo(src='../#{bike.img.small}')
+        a(href='/bikes/#{bike._id}') #{bike.title}
+
+block append css
+    link(rel="stylesheet" href="css/filter.css")
+block content
+    .page.all-bikes
+        include filter
+        ul.bike-list
+            each bike in bikes
+                +bike-preview(bike)
+block append js
+    script(src="js/filter.js")

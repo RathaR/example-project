@@ -25,7 +25,12 @@ module.exports = function(app, config) {
 	app.use('/bower_components',  express.static(config.root + '/bower_components'));
 
 	var indexController = require('./../app/controllers/index');
+	var bikesController = require('./../app/controllers/bike');
+	var accountController = require('./../app/controllers/account');
+
 	indexController(app);
+	bikesController(app);
+	accountController(app);
 
 	app.use(function (req, res, next) {
 		var err = new Error('Not Found');

@@ -4,7 +4,7 @@ var express = require('express'),
 
 router.get('/', function (req, res, next) {
 	res.render('index/index', {
-		title: 'Motocycles'
+		title: 'Motorcycles'
 	});
 });
 

@@ -1,0 +1,12 @@
+extends ../common/layout
+
+block content
+    .login-form
+    h1 Login
+    form(action="/login")
+        lablel User name
+            input(name="login" type="text" placeholder="Enter user name")
+        label Password
+            input(name="password" type="password)" placeholder="Enter password")
+        input(type="submit" value="Login")
+
